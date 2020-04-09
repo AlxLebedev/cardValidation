@@ -56,6 +56,13 @@ export default class Main {
 
   input() {
     showValidPaySystem(returnPaySystem(this.inputField.value));
+    if (this.inputField.value === '') {
+      if (this.inputField.classList.contains('valid')) {
+        this.inputField.classList.remove('valid');
+      } else if (this.inputField.classList.contains('invalid')) {
+        this.inputField.classList.remove('invalid');
+      }
+    }
   }
 
   addCurrentClass(cardNumber) {
