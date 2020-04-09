@@ -1,0 +1,11 @@
+images downloaded from:
+
+https://icons8.ru
+  mir_card.png
+https://findicons.com
+  american_express.png
+  diners_club.png
+  discover_curved.png
+  jcb.png
+  mastercard_curved.png
+  visa_curved.png
